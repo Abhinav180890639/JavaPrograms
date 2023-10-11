@@ -2,13 +2,13 @@ package com.abhinav;
 
 public class stack {
     private int maxSize;
-    private int top;
+    private int top; //top element 
     private int[] stackArray;
 
-    public stack(int size) {
+    public stack(int size) {    //constructor 
         maxSize = size;
         stackArray = new int[maxSize];
-        top = -1;
+        top = -1;   //empty stack 
     }
 
     public boolean isEmpty() {
